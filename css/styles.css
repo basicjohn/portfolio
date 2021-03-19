@@ -4,7 +4,19 @@ body {
   padding: 25px;
 }
 
+
+
 .jumbotron {
   background-color: #ebebeb;
   padding: 50px;
+}
+
+.jumbotron button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.jumbotron h1 {
+  color: #000;
+  text-transform: uppercase;
 }
