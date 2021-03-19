@@ -1,6 +1,7 @@
 /* Site Wide Styles */
 body {
   color: #323232;
+  font-size: 16px;
   font-family: 'Comfortaa', sans-serif;
   padding: 25px;
   background-color: #fff;
@@ -9,7 +10,8 @@ body {
 }
 
 hr {
-  border-top: 3px solid rgb(254, 254, 254);
+  border-top: 3px solid rgb(244, 244, 244);
+  margin-top: 25px;
   margin-bottom: 25px;
 }
 
@@ -21,8 +23,6 @@ h5 {
   margin-bottom: 10px;
 }
 
-
-
 /* Jumbotron Styles */
 .jumbotron {
   background-color: #ebebeb;
@@ -32,6 +32,10 @@ h5 {
   border-color: #ebebeb;
   border-radius: 175px 175px 0px 0px;
   border-bottom-color: #d5d5d5;
+}
+
+.jumbotron .col-md-9 {
+  padding-left: 50px
 }
 
 .rounded-circle {
@@ -59,7 +63,7 @@ button:hover a {
 /* Portfolio Styles */
 #portfolio {
   padding: 50px;
-  background-color: #f7f7f7;
+  background-color: #fff;
   border-width: 0px 1px 1px 1px;
   border-style:  solid;
   border-color: #ebebeb;
@@ -67,8 +71,12 @@ button:hover a {
 }
 
 .portfolio-piece {
-margin-top: 30px;
-}
+  margin-top: 0px;
+  }
+
+.portfolio-piece p {
+  line-height: 1.7em;
+  }
 
 ul.languages-used {
 padding-left: 0px;
@@ -83,6 +91,7 @@ ul.languages-used li {
   border-style: dashed;
   border-width: 1px;
   border-color: #323232;
+  text-transform: uppercase;
 }
 
 ul.languages-used li:hover {
