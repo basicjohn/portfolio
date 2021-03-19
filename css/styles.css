@@ -2,6 +2,9 @@ body {
   color: #323232;
   font-family: 'Comfortaa', cursive;
   padding: 25px;
+  background-color: #fff;
+  background-image: url('../images/leaves.jpg');
+  background-repeat: repeat;
 }
 
 /* Jumbotron Styles */
@@ -43,6 +46,7 @@ button:hover a {
 
 #portfolio {
   padding: 50px;
+  background-color: #f7f7f7;
 }
 
 .portfolio-piece .col-2 {
