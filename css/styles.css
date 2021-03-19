@@ -9,7 +9,7 @@ body {
 }
 
 hr {
-  border-top: 5px solid rgb(254, 254, 254);
+  border-top: 3px solid rgb(254, 254, 254);
   margin-bottom: 25px;
 }
 
@@ -27,6 +27,7 @@ h5 {
 .jumbotron {
   background-color: #ebebeb;
   padding: 50px;
+  border-width: 2px;
   border-style: solid;
   border-color: #ebebeb;
   border-radius: 175px 175px 0px 0px;
@@ -34,9 +35,8 @@ h5 {
 }
 
 .rounded-circle {
-  border-width
   display: block;
-  border-width: 5px;
+  border-width: 3px;
   border-color: #c2c2c2;
   border-style: solid;
 }
@@ -60,9 +60,10 @@ button:hover a {
 #portfolio {
   padding: 50px;
   background-color: #f7f7f7;
-  border-width: 0px 2px 2px 2px;
+  border-width: 0px 1px 1px 1px;
   border-style:  solid;
   border-color: #ebebeb;
+  border-bottom-color: #d5d5d5;
 }
 
 .portfolio-piece {
@@ -110,6 +111,10 @@ background-color: #323232;
 
 #about-me .col-8 {
   padding-right: 50px;
+}
+
+#about-me .col-8 .experience-section {
+  margin-bottom: 25px;
 }
 
 #about-me .col-4 {
