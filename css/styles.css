@@ -1,3 +1,4 @@
+/* Site Wide Styles */
 body {
   color: #323232;
   font-family: 'Comfortaa', cursive;
@@ -7,25 +8,36 @@ body {
   background-repeat: repeat;
 }
 
-
 hr {
   border-top: 5px solid rgb(254, 254, 254);
+  margin-bottom: 25px;
+}
+
+h1, h2, h3, h5 {
+  text-transform: uppercase;
+}
+
+h5 {
+  margin-bottom: 10px;
+
 }
 
 /* Jumbotron Styles */
-
 .jumbotron {
   background-color: #ebebeb;
   padding: 50px;
   border-style: solid;
   border-color: #ebebeb;
-  border-radius: 180px 180px 0px 0px;
+  border-radius: 175px 175px 0px 0px;
   border-bottom-color: #d5d5d5;
 }
 
 .rounded-circle {
   border-width
   display: block;
+  border-width: 5px;
+  border-color: #d5d5d5;
+  border-style: solid;
 }
 
 button a {
@@ -41,24 +53,25 @@ button:hover a {
 
 .jumbotron h1 {
   color: #000;
-  text-transform: uppercase;
   margin-top: 10px;
 }
 
-
 /* Portfolio Styles */
-
 #portfolio {
   padding: 50px;
   background-color: #f7f7f7;
   border-width: 0px 2px 2px 2px;
   border-style:  solid;
-  border-color: #d5d5d5;
-
+  border-color: #ebebeb;
 }
 
 .portfolio-piece {
 margin-top: 30px;
+}
+
+ul.languages-used li {
+
+
 }
 
 .portfolio-piece .col-2 {
@@ -70,17 +83,44 @@ margin-top: 30px;
   width: 100%;
 }
 
-
-
 /* About Me Styles */
-
 #about-me {
   padding: 50px;
-  padding-bottom: 180px;
+  padding-bottom: 175px;
   background-color: #ebebeb;
   border-style: solid;
   border-color: #ebebeb;
-  border-radius: 0px 0px 180px 180px ;
-
-
+  border-radius: 0px 0px 175px 175px ;
 }
+
+#about-me .col-8 {
+  padding-right: 50px;
+}
+
+#about-me .col-4 {
+  padding-left: 50px;
+}
+
+h5.job-title {
+  font-weight: 900;
+}
+
+.credentials strong {
+ font-weight: 600;
+ font-size: 18px;
+}
+
+.date {
+  font-weight: 300;
+}
+
+#about-me ol {
+  margin-left: 20px;
+}
+
+#about-me li {
+  margin-bottom: 10px;
+}
+
+
+
