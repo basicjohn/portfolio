@@ -4,19 +4,53 @@ body {
   padding: 25px;
 }
 
-
+/* Jumbotron Styles */
 
 .jumbotron {
   background-color: #ebebeb;
   padding: 50px;
+  border-style: solid;
+  border-color: #ebebeb;
+  border-radius: 40px 40px 0px 0px;
+  border-bottom-color: #d5d5d5;
 }
 
-.jumbotron button a {
+.rounded-circle {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+button a {
   color: #fff;
   text-decoration: none;
+}
+
+button:hover a {
+  color: rgb(232, 232, 232);
+  text-decoration: none;
+
 }
 
 .jumbotron h1 {
   color: #000;
   text-transform: uppercase;
+  margin-top: 10px;
 }
+
+
+/* Portfolio Styles */
+
+#portfolio {
+  padding: 50px;
+}
+
+.portfolio-piece .col-2 {
+  margin-top: 45px
+}
+
+.portfolio-piece button {
+  display: block;
+  width: 100%;
+}
+
