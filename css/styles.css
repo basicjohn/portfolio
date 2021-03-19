@@ -1,7 +1,7 @@
 /* Site Wide Styles */
 body {
   color: #323232;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa', sans-serif;
   padding: 25px;
   background-color: #fff;
   background-image: url('../images/leaves.jpg');
@@ -19,8 +19,9 @@ h1, h2, h3, h5 {
 
 h5 {
   margin-bottom: 10px;
-
 }
+
+
 
 /* Jumbotron Styles */
 .jumbotron {
@@ -48,11 +49,10 @@ button a {
 button:hover a {
   color: rgb(232, 232, 232);
   text-decoration: none;
-
 }
 
 .jumbotron h1 {
-  color: #000;
+  color: #323232;
   margin-top: 10px;
 }
 
@@ -69,9 +69,24 @@ button:hover a {
 margin-top: 30px;
 }
 
+ul.languages-used {
+padding-left: 0px;
+}
+
 ul.languages-used li {
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px 30px 5px 30px;
+  display: block;
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #323232;
+}
 
-
+ul.languages-used li:hover {
+color: #fff;
+background-color: #323232;
 }
 
 .portfolio-piece .col-2 {
