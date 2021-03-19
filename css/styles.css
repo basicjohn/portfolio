@@ -1,8 +1,10 @@
 body {
   color: #323232;
   font-family: 'Comfortaa', cursive;
+  padding: 25px;
 }
 
 .jumbotron {
   background-color: #ebebeb;
+  padding: 50px;
 }
