@@ -7,6 +7,11 @@ body {
   background-repeat: repeat;
 }
 
+
+hr {
+  border-top: 5px solid rgb(254, 254, 254);
+}
+
 /* Jumbotron Styles */
 
 .jumbotron {
@@ -14,13 +19,12 @@ body {
   padding: 50px;
   border-style: solid;
   border-color: #ebebeb;
-  border-radius: 40px 40px 0px 0px;
+  border-radius: 180px 180px 0px 0px;
   border-bottom-color: #d5d5d5;
 }
 
 .rounded-circle {
-  margin-right: auto;
-  margin-left: auto;
+  border-width
   display: block;
 }
 
@@ -47,6 +51,14 @@ button:hover a {
 #portfolio {
   padding: 50px;
   background-color: #f7f7f7;
+  border-width: 0px 2px 2px 2px;
+  border-style:  solid;
+  border-color: #d5d5d5;
+
+}
+
+.portfolio-piece {
+margin-top: 30px;
 }
 
 .portfolio-piece .col-2 {
@@ -58,3 +70,17 @@ button:hover a {
   width: 100%;
 }
 
+
+
+/* About Me Styles */
+
+#about-me {
+  padding: 50px;
+  padding-bottom: 180px;
+  background-color: #ebebeb;
+  border-style: solid;
+  border-color: #ebebeb;
+  border-radius: 0px 0px 180px 180px ;
+
+
+}
