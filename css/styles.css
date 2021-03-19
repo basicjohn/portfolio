@@ -23,6 +23,14 @@ h5 {
   margin-bottom: 10px;
 }
 
+a {
+  color:#323232;
+}
+
+a:hover {
+  color:#000;
+}
+
 /* Jumbotron Styles */
 .jumbotron {
   background-color: #ebebeb;
