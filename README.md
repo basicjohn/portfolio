@@ -12,6 +12,7 @@
 * HTML
 * CSS
 * Bootstrap CSS Framework
+* Google Fonts
 * Git
 * VS Code
 

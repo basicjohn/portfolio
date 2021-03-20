@@ -2,7 +2,7 @@
 body {
   color: #323232;
   font-size: 16px;
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 25px;
   background-color: #fff;
   background-image: url('../images/leaves.jpg');
@@ -15,12 +15,17 @@ hr {
   margin-bottom: 25px;
 }
 
-h1, h2, h3, h5 {
+h1, h2, h3{
   text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .05em;
 }
 
 h5 {
   margin-bottom: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
 }
 
 a {
@@ -53,6 +58,19 @@ a:hover {
   border-style: solid;
 }
 
+.btn-secondary {
+  color: #fff;
+  background-color: #323232;
+  border-color: #323232;
+  border-radius: 0px;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
 button a {
   color: #fff;
   text-decoration: none;
@@ -80,11 +98,11 @@ button:hover a {
 
 .portfolio-piece {
   margin-top: 0px;
-  }
+}
 
 .portfolio-piece p {
   line-height: 1.7em;
-  }
+}
 
 ul.languages-used {
 padding-left: 0px;
